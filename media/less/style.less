@@ -1,0 +1,144 @@
+#main-page-wrapper { // айди отвечает за фон
+  height: 100%;
+  background-color: #4B637F;
+  padding: 2em 0;
+
+  .site-content-container { // отвечает за 2-й уровень, один dib
+	height: 100%;
+	width: 1200px;
+	margin: 0 auto;
+	background: chocolate;
+	.grid-system {
+	  width: 100%;
+	  margin-bottom: 4%;
+	  &.column-6 {
+		margin: 0 4% 0 0;
+		float: left;
+		width: 48%;
+		height: 200px;
+		background-color: #e2e2e2;
+	  }
+
+	  &.column-4 {
+		margin: 0 4% 0 0;
+		float: left;
+		width: 32%;
+		height: 200px;
+		background-color: #403bff;
+	  }
+
+	  &.column-8 {
+		margin: 0 4% 0 0;
+		float: left;
+		width: 64%;
+		height: 200px;
+		background-color: green;
+	  }
+
+	  &:last-child {
+		margin-right: 0;
+	  }
+		//1111111111111111111111111111111111111111111111111111111111111111111111
+
+
+
+    	&.column-4-2 {
+			margin: 0 4% 0 0;
+			float: left;
+			width: 32%;
+			height: 1000px;
+			background-color: cadetblue;
+			overflow: hidden;
+		}
+		&.column-8-2 {
+			margin: 0 4% 0 0;
+			float: right;
+			width: 64%;
+			height: 1000px;
+			background-color: darkseagreen;
+		}
+		&:last-child {
+			margin-right: 0;
+		}
+
+
+
+
+	}
+
+	.row {
+	  border-radius: 5px;
+	  .inner-box {
+		&.grid-system {
+		  &.x-social-info {
+			background-color: #403bff;
+		  }
+		}
+		&.menu {
+		  background-color: #ffffff;
+		}
+		&.slider {
+		  background-color: darkcyan;
+		  height: 300px;
+		}
+		&.video {
+		  background-color: darkseagreen;
+		  height: 250px;
+
+		}
+		&.photo {
+		  background-color: antiquewhite;
+		  height: 250px;
+
+		}
+
+		&:after {
+		  content: '';
+		  display: block;
+		  clear: both;
+		}
+
+	  }
+
+	  &:after {
+		content: '';
+		display: block;
+		clear: both;
+	  }
+	}
+
+	.menu-wrapper {
+	  float: left;
+	  .menu-item {
+		&.active {
+		  color: #e2e2e2;
+		}
+		line-height: 1.5;
+		display: inline-block;
+	  }
+	}
+
+  }
+}
+//1111111111111111111111111111111111111111111111111111
+.time-news {
+	background-color: aqua;
+				width: 100%;
+				height: 300px;
+				margin: 0 0 4% 0;
+
+}
+.hot-news {
+	background-color: greenyellow;
+	width: 100%;
+	height: 400px;
+	margin: 0 0 4% 0;
+}
+.form{
+	background-color: burlywood;
+	 width: 100%;
+	 height: 100%;
+	 margin: 0;
+
+
+}
