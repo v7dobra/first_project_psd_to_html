@@ -61,9 +61,7 @@ $dv_varD = $DB->getResult();
 			<div class="inner-box grid-system column-4 x-social-info"></div>
 			<div class="inner-box grid-system column-8"></div>
 		</div>
-		<!-- 11111111111111111111111111111111111111111-->
-		<!-- первый вертикальный див и трех елиментов-->
-		<div class="row grid-system">
+			<div class="row grid-system">
 			<div class="inner-box grid-system column-4-2">
 				<div class="time-news"></div>
 				<div class="hot-news"></div>
